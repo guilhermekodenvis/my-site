@@ -82,13 +82,14 @@ button {
 }
 
 .skills {
-  margin-top: 16px;
+  margin-top: 8px;
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
 }
 
-.skills .skill:not(:first-child) {
-  margin-left: 8px;
+.skills .skill:not(:last-child) {
+  margin-right: 8px;
 }
 
 .skill {
@@ -96,6 +97,7 @@ button {
   align-items: center;
   padding: 8px;
   border-radius: 8px;
+  margin-top: 8px;
 }
 
 .skill span {
